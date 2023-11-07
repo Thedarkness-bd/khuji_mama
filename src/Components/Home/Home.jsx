@@ -20,7 +20,7 @@ function Home({ setSearch }) {
       </h1>
       <form action="" onSubmit={handleSubmit}>
         <TextField
-          className="absolute top-[180px] w-[300px] left-[10px] md:top-[200px] md:left-[80px] lg:top-[300px] lg:left-[400px] border-zinc-400 border-2 p-3 rounded-md lg:w-[500px]"
+          className="absolute top-[180px] w-[300px] left-[10px] md:top-[200px] md:left-[80px] lg:top-[300px] lg:left-[450px] border-zinc-400 border-2 p-3 rounded-md lg:w-[500px]"
           InputProps={{
             endAdornment: (
               <InputAdornment>
