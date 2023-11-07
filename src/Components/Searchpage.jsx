@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
+import GettingData from "./API/GettingData";
 function Searchpage({ searchTerm }) {
   const history = useNavigate();
 
@@ -8,7 +9,11 @@ function Searchpage({ searchTerm }) {
       history("/");
     }
   }, [searchTerm]);
-  return <div>Welcome : {searchTerm}</div>;
+  return (
+    <div>
+      <GettingData searchTerm={searchTerm} />
+    </div>
+  );
 }
 
 export default Searchpage;

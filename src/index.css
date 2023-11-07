@@ -17,7 +17,19 @@ body {
   top: 25%;
   left: 35%;
 }
+.sub-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 6px;
+  padding: 10px;
+}
 
+.sub-nav > .logo {
+  font-family: "Gloria Hallelujah", cursive;
+  font-size: 20px;
+  font-weight: 700;
+}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
